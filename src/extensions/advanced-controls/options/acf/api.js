@@ -58,11 +58,11 @@ registerStore( 'editorskit/acf', {
 	},
 
 	resolvers: {
-		* receiveACFields() {
-			const path = '/editorskit/v1/acf';
-			const ACFfields = yield actions.fetchFromAPI( path );
-			yield actions.setACFields( ACFfields );
-		},
+		// * receiveACFields() {
+		// 	const path = '/editorskit/v1/acf';
+		// 	const ACFfields = yield actions.fetchFromAPI( path );
+		// 	yield actions.setACFields( ACFfields );
+		// },
 	},
 
 } );
