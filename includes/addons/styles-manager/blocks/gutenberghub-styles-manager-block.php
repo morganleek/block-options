@@ -34,7 +34,7 @@ class Gutenberghub_Styles_Manager_Block {
 		);
 		wp_register_script(
 			'gutenberghub-styles-manager-block-script',
-			EDITORSKIT_PLUGIN_DIR . 'build/styles-manager-addon.js',
+			EDITORSKIT_PLUGIN_URL . 'build/styles-manager-addon-block.js',
 			array(),
 			uniqid()
 		);
